@@ -1,0 +1,22 @@
+{
+    "name": "1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "private": true,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@previewed/plugin-css": "^1.0.0",
+        "@previewed/plugin-markdown-it": "^1.0.0",
+        "@previewed/plugin-watch": "^1.0.0",
+        "@vscode/markdown-it-katex": "^1.0.3",
+        "markdown-it": "^14.1.0",
+        "previewed": "^1.0.0"
+    }
+}
