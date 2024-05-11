@@ -6,14 +6,17 @@ settings:
 
 devDependencies:
   '@previewed/plugin-css':
-    specifier: ^1.0.0
-    version: 1.0.0
+    specifier: 1.1.0-alpha.0
+    version: 1.1.0-alpha.0
   '@previewed/plugin-markdown-it':
-    specifier: ^1.0.0
-    version: 1.0.0
+    specifier: 1.1.0-alpha.0
+    version: 1.1.0-alpha.0
+  '@previewed/plugin-text':
+    specifier: 1.1.0-alpha.0
+    version: 1.1.0-alpha.0
   '@previewed/plugin-watch':
-    specifier: ^1.0.0
-    version: 1.0.0
+    specifier: 1.1.0-alpha.0
+    version: 1.1.0-alpha.0
   '@vscode/markdown-it-katex':
     specifier: ^1.0.3
     version: 1.0.3
@@ -21,13 +24,13 @@ devDependencies:
     specifier: ^14.1.0
     version: 14.1.0
   previewed:
-    specifier: ^1.0.0
-    version: 1.0.0
+    specifier: 1.1.0-alpha.0
+    version: 1.1.0-alpha.0
 
 packages:
 
-  /@previewed/plugin-css@1.0.0:
-    resolution: {integrity: sha512-GHlKNUeNAirrpkh72sau5En1VBCwmdkJiT9CrUlVXe5V/Gw55KjdsJL7lGFF1nryvdoNzwiT/dhvF/pbmEkamA==}
+  /@previewed/plugin-css@1.1.0-alpha.0:
+    resolution: {integrity: sha512-zRP5jKlK93LFFVnVjJZuz4PTEg4bD67ZKKZOPxb+Pu7Fe+VDiKT49+nseBGTyd4kMlvTa3evxQgpM5NizPHJBw==}
     dependencies:
       jsdom: 24.0.0
     transitivePeerDependencies:
@@ -37,12 +40,16 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@previewed/plugin-markdown-it@1.0.0:
-    resolution: {integrity: sha512-nBKr2ldZ29W9SMO+a34D3OrVkuxuIdN6zJ6KnmegJ/SfYXRVK+P2Aol26S8cjMvMMH5kBqBgfokdEPXMZD4MiQ==}
+  /@previewed/plugin-markdown-it@1.1.0-alpha.0:
+    resolution: {integrity: sha512-MpXABDL3GXzfgf/vpXaX4qBG7Vvgtbq8sdvyg51HUJ4uOf16KTzdEGComQFnP4if+iP5ua/dHA/oyNakT0hCAw==}
     dev: true
 
-  /@previewed/plugin-watch@1.0.0:
-    resolution: {integrity: sha512-QMHNB2ODnZGTiVpN8m6x3yYvkKAt9+Tqo9+yn5yuB+HDOr7NZe1Bk5xVr9NNs6K8VYP2ZZaASr5W+/TTt5ZSpg==}
+  /@previewed/plugin-text@1.1.0-alpha.0:
+    resolution: {integrity: sha512-Gy4oH8u7AqRPW8n3g3xrPa15H932r56g3E51n4wbWo6Isoa/7JEDdjx/aPte/CZ/1hLaqy8ettIB0b5HjEHmQg==}
+    dev: true
+
+  /@previewed/plugin-watch@1.1.0-alpha.0:
+    resolution: {integrity: sha512-n10xL/2KYaAt88D5LX9qXG5MrguA3TZ9GbpssO7Hbk6tJIAzDqpY8K7mX9c+NaO6hQ6VRNahsOge2w/GW6bBtw==}
     dependencies:
       jsdom: 24.0.0
       ws: 8.16.0
@@ -584,8 +591,8 @@ packages:
     resolution: {integrity: sha512-5DFkuoqlv1uYQKxy8omFBeJPQcdoE07Kv2sferDCrAq1ohOU+MSDswDIbnx3YAM60qIOnYa53wBhXW0EbMonrQ==}
     dev: true
 
-  /previewed@1.0.0:
-    resolution: {integrity: sha512-Rv6dPO/rjouz2AQM+eGJv6ye9rycuWORSudMzz7kzEJyqChfIpsAMw8jCoHcrLMxTcJVF7h8AZNQqVc3U+tWqg==}
+  /previewed@1.1.0-alpha.0:
+    resolution: {integrity: sha512-XdOkWcA3ElpE941TNcEDmj3TYPBLTLg/Ip7Zi95c4rVjczhCMWBxaAh9h26rKQGZ2XX3ymoqjWKkho8l7RJ6eg==}
     dependencies:
       express: 4.19.2
     transitivePeerDependencies:
