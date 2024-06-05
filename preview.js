@@ -20,7 +20,7 @@ init({
                 direction: rtl;
             }
             [mathvariant=double-struck] {
-                text-shadow: 0.13em 0 black;
+                text-shadow: 0.05em 0 white, 0.1em 0 black;
             }
             `,
             { filetypes: ['md'] }
