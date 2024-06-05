@@ -17,6 +17,7 @@
         "@previewed/plugin-text": "1.1.0-alpha.0",
         "@previewed/plugin-watch": "1.1.0-alpha.0",
         "@vscode/markdown-it-katex": "^1.0.3",
+        "highlight.js": "^11.9.0",
         "markdown-it": "^14.1.0",
         "previewed": "1.1.0-alpha.0"
     }

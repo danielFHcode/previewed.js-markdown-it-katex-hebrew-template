@@ -20,6 +20,9 @@ devDependencies:
   '@vscode/markdown-it-katex':
     specifier: ^1.0.3
     version: 1.0.3
+  highlight.js:
+    specifier: ^11.9.0
+    version: 11.9.0
   markdown-it:
     specifier: ^14.1.0
     version: 14.1.0
@@ -380,6 +383,11 @@ packages:
     engines: {node: '>= 0.4'}
     dependencies:
       function-bind: 1.1.2
+    dev: true
+
+  /highlight.js@11.9.0:
+    resolution: {integrity: sha512-fJ7cW7fQGCYAkgv4CPfwFHrfd/cLS4Hau96JuJ+ZTOWhjnhoeN1ub1tFmALm/+lW5z4WCAuAV9bm05AP0mS6Gw==}
+    engines: {node: '>=12.0.0'}
     dev: true
 
   /html-encoding-sniffer@4.0.0:
