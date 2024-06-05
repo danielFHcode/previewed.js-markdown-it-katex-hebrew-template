@@ -9,7 +9,7 @@ import { resolve } from 'node:path';
 init({
     dir: resolve('./src'),
     plugins: [
-        markdown(new MarkdownIt().use(katex.default)),
+        markdown(new MarkdownIt({ html: true }).use(katex.default)),
         css(
             `
             .katex-html {
